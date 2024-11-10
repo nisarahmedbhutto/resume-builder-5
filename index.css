@@ -1,0 +1,172 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+        background-color: rgb(41, 39, 39);
+
+}
+
+/* contenor css */
+#resumeContenor{
+    display:grid;
+    margin: 50px 300px;
+    gap: 50px
+};
+
+
+#heading{
+    padding-left: 190px;
+    /* font-size: 35px; */
+}
+
+#head1{
+    color: rgb(16, 209, 16);
+}
+
+#head2{
+    color: black;
+}
+
+#formInput{
+    display: grid;
+    background-color: rgb(119, 143, 153);
+    padding: 50px;
+    gap: 30px;
+    border-radius: 50px;
+}
+
+
+fieldset{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(116, 114, 114);
+    color: black;
+}
+
+legend{
+    color: rgb(3, 34, 3);
+    font-weight: 700;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(48, 47, 47);
+}
+
+label{
+    color: rgb(6, 71, 6);
+}
+
+
+textarea{
+    width: 500px;
+    border-radius: 5px;
+    background-color: rgb(48, 47, 47);
+}
+
+button{
+    height: 40px;
+    width: 150px;
+        background-color: rgb(48, 47, 47);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: rgb(168, 127, 127);
+}
+
+
+#displayResumeData{
+    color: white;
+}
+
+#displayResumeData{
+    border: solid rgb(245, 239, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: rgb(59, 59, 59);
+    /* editable making the resume */
+    outline:none;
+}
+
+h2 b{
+    color:black;
+    font-size: 40px;
+}
+
+h3{
+    color: rgb(17, 172, 17);
+    font-size: 30px;
+}
+
+#shareable-link-contenor{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border:solid rgb(201, 180, 180);
+    border-radius: 50px;
+    gap: 30px;
+    padding: 50px;
+}
+
+#shareable-link-contenor h2{
+    color: aqua;
+    padding-bottom:20px ;
+    font-size: 50px;
+}
+
+#shareable-link-contenor p{
+    color: rgb(24, 187, 24);
+    padding-bottom: 20px;
+}
+
+#shareable-link{
+    color: rgb(24, 187, 24);
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  #resumeContenor{
+    display:grid;
+    margin: 50px 50px;
+    gap: 100px
+};
+}
+
+@media only screen and (max-width: 786px) {
+  #resumeContenor{
+    display:grid;
+    margin: 50px 70px;
+    gap: 100px
+};
+}
+
+@media only screen and (max-width: 425px) {
+  #resumeContenor{
+    margin: 10px 5px;
+    gap: 100px
+};
+#formInput{
+    display: grid;
+    gap: 30px;
+    width: 200px;
+}
+
+}
